@@ -1,6 +1,6 @@
 % generate k random clusters (r elems) with sd in range a-by-a square
 % calculate in q guesses
-k    = 4;
+k    = 5;
 q    = 8;
 a    = 5;
 sd   = .5;
