@@ -2,7 +2,7 @@
 % calculate in q guesses
 k    = 5;
 q    = 8;
-a    = 5;
+a    = 10;
 sd   = .5;
 r    = 100;
 data = zeros(k*r, 3);
