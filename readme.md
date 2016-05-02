@@ -5,4 +5,4 @@ This repository includes miscellaneous work involving data mining. Some projects
 The repository currently includes projects on:
 
 - [K-Means Clustering](https://github.com/ben-tanen/data-mining/tree/master/kmeans): Work done to visualize k-means clustering in MATLAB
-- [SVM Poem Categorization]((https://github.com/ben-tanen/data-mining/tree/master/svm-poems): Small assignment to categorize poems as either English or German using SVMs.
+- [SVM Poem Categorization](https://github.com/ben-tanen/data-mining/tree/master/svm-poems): Small assignment to categorize poems as either English or German using SVMs.
