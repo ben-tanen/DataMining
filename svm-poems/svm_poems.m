@@ -31,8 +31,8 @@ c = [-1, -1, -1, -1, -1,  1,  1, 1, 1, 1];
 
 % plot data
 hold on
-plot(x(1:5), y(1:5),  '.r', 'Markersize', 25)
-plot(x(6:10),y(6:10), '.b', 'Markersize', 25)
+d1 = plot(x(1:5), y(1:5),  '.r', 'Markersize', 25);
+d2 = plot(x(6:10),y(6:10), '.b', 'Markersize', 25);
 title('Categorizing German vs. English Poems');
 ylabel('number of "i"');
 xlabel('number of complete words');
@@ -57,9 +57,10 @@ plot(xx,yy,'-g','Linewidth',1);
 % testing SVM by plotting new poem in magenta
 % poem is obviously in German - should be on blue side of partition
 new_poem = 'Hat der alte Hexenmeister sich doch einmal wegbege';
-new_poem_x = size(cell2mat(strfind(poems(i),' ')),2) + 1;
-new_poem_y = size(cell2mat(strfind(poems(i),'i')),2) + ...
-             size(cell2mat(strfind(poems(i),'I')),2);
-plot(new_poem_x,new_poem_y,'.m', 'Markersize', 25);
+new_poem_x = size(strfind(new_poem,' '),2) + 1;
+new_poem_y = size(strfind(new_poem,'i'),2) + ...
+             size(strfind(new_poem,'I'),2);
+d3 = plot(new_poem_x,new_poem_y,'.m', 'Markersize', 25);
 
+legend([d1 d2 d3],{'English Poems', 'German Poems', 'New Poem'});
 hold off;
