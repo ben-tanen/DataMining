@@ -6,3 +6,4 @@ The repository currently includes projects on:
 
 - [K-Means Clustering](https://github.com/ben-tanen/data-mining/tree/master/kmeans): Work done to visualize k-means clustering in MATLAB
 - [SVM Poem Categorization](https://github.com/ben-tanen/data-mining/tree/master/svm-poems): Small assignment to categorize poems as either English or German using SVMs.
+- [NHL Clustering](https://github.com/ben-tanen/data-mining/tree/master/nhl-clustering): Using PCA and K-Means to cluster NHL teams based on if they got playoff spots
