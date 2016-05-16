@@ -1,4 +1,4 @@
-num_features = 3;
+num_features = 17;
 num_clusters = 2;
 
 data  = csvread('nhl_team_data.csv',1,1); % read data
