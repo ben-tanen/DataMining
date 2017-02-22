@@ -6,6 +6,6 @@ The categorization of the poems is based on the number of words in each excerpt 
 
 ![Example Output](output.png)
 
-The original ten poems can be seen plotted in red and blue (for English and German respectively). A new test poem is then plotted in magenta. This poem is obviously German so it appears the SVM works correctly.
+The original ten poems can be seen plotted in red and blue (for English and German respectively). A new test poem is then plotted in magenta. This poem is German so it appears the SVM works correctly since it is placed on the correct side.
 
 This was work from Tufts' MATH-150 course (Spring 2016).
